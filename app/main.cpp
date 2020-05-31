@@ -4,6 +4,6 @@
 int main(int argc, char *argv[])
 {
     HelloWorld hello("Hello World!");
-    hello.print(std::cout);
+    hello.Print(std::cout);
     return 0;
 }
