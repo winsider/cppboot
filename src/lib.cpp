@@ -1,4 +1,4 @@
-#include <${PROJECT_NAME}/${PROJECT_NAME}.hpp>
+#include <{PROJECT_NAME}/{PROJECT_NAME}.hpp>
 
 #include <iostream>
 #include <memory>
