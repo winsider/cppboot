@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.15)
 
 add_library(lib{PROJECT_NAME} STATIC 
-    lib{PROJECT_NAME}.cpp
+    {PROJECT_NAME}.cpp
 )
 
 target_include_directories(lib{PROJECT_NAME}
