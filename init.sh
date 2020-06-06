@@ -6,7 +6,9 @@ mkdir include/$1
 mv include/lib.hpp include/$1/$1.hpp
 sed -i "s/{PROJECT_NAME}/$1/g"  app/main.cpp
 sed -i "s/{PROJECT_NAME}/$1/g"  src/lib.cpp
+sed -i "s/{PROJECT_NAME}/$1/g"  test/test.cpp
 mv src/lib.cpp src/$1.cpp
+mv test/test.cpp test/test_$1.cpp
 rm init.sh
 mkdir build
 cd build
